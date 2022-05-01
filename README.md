@@ -1,10 +1,34 @@
-# Getting Started with Create React App
+Tic-Tac-Toe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This application was created using Reacts's tic-tac-toe tutorial, which teaches React concepts including elements, components, props, and state.
 
-In the project directory, you can run:
+You can review the tutorial by [clicking this link](https://reactjs.org/tutorial/tutorial.html)
+
+The tic-tac-toe game:
+
+- Lets you play tic-tac-toe,
+- Indicates when a player has won the game,
+- Stores a game’s history as a game progresses,
+- Allows players to review a game’s history and see previous versions of a game’s board.
+
+This is what the completed application looks like:
+
+![tic-tac-toe](./public/assets/Screenshot%202022-04-30%20230958.jpg)
+
+## Ideas for future development
+
+Ideas for improvements that you could make to the tic-tac-toe game which are listed in order of increasing difficulty:
+
+- Display the location for each move in the format (col, row) in the move history list.
+- Bold the currently selected item in the move list.
+- Rewrite Board to use two loops to make the squares instead of hardcoding them.
+- Add a toggle button that lets you sort the moves in either ascending or descending order.
+- When someone wins, highlight the three squares that caused the win.
+- When no one wins, display a message about the result being a draw.
+
+## Implementation
 
 ### `npm start`
 
@@ -29,42 +53,16 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Credits
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**The following resources were used to complete this project:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. [React documentation](https://reactjs.org/).
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
